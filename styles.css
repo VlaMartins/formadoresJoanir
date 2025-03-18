@@ -43,7 +43,7 @@ section {
     position: absolute;
     right: 0;
     top: 18rem;
-    /* width: 45rem; */
+    margin: auto;
     height: auto;
     border-radius: 5px;
 }
