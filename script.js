@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function(){
     })
 
     // ****************************************************************
-    const diminuiFonteBotao = document.getElementById('diminuir-fonte');
+    const diminuiFonteBotao= document.getElementById('diminuir-fonte');
 
     diminuiFonteBotao.addEventListener('click', function () {
         tamanhoAtualFonte -= 0.1;
