@@ -45,6 +45,7 @@ section {
     top: 18rem;
     width: 18%; 
     height: auto;
+    display: block;
     margin: auto;
 }
 
