@@ -42,6 +42,8 @@ section {
 .img-inicio {
     position: absolute;
     right: 0;
+    top: 18rem;
+
     height: auto;
 }
 
