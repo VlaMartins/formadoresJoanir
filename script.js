@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () { //se o conteudo do html foi totalmente carregado.. 
   const botaoDeAcessibilidade = document.getElementById('botao-acessibilidade')
   const opcoesDeAcessibilidade = document.getElementById('opcoes-acessibilidade')
 
