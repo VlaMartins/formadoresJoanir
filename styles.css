@@ -141,7 +141,7 @@ h2 {
 }
 
 .menu-acessibilidade{
-    position: fixed; //fixa na tela o botao 
+    position: fixed; /*fixa na tela o botao */
     top:2rem;
     right:20px;
     z-index: 1000; /*Garante que o menu fique sobre os outros elementos.*/
