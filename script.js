@@ -6,6 +6,11 @@ document.addEventListener('DOMContentLoaded', function(){
     aumentaFonteBotao.addEventListener('click', function(){
         tamanhoAtualFonte += 0.1;
         document.body.style.fontSize= `${tamanhoAtualFonte}rem`;
+
+    const alternaContraste = document.getElementById('alterna-contraste')
+        alternaContraste.addEventListener('click', function () {
+            document.body.classList.toggle('alto-contraste')
+        }) //Código fonte seguinte ocultado no slide
     })
 
     // ****************************************************************
@@ -24,8 +29,5 @@ botaoDeAcessibilidade.addEventListener('click', function(){
     opcoesDeAcessibilidade.classList.toggle('apresenta-lista')
 })
     
-const alternaContraste = document.getElementById('alterna-contraste')
-alternaContraste.addEventListener('click', function () {
-    document.body.classList.toggle('alto-contraste')
 
 })
