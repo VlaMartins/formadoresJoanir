@@ -31,4 +31,3 @@ document.addEventListener('DOMContentLoaded', function () { //Código fonte segu
         document.body.classList.toggle('alto-contraste')
     }) //Código fonte seguinte ocultado no slide
 })
-
