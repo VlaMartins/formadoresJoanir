@@ -24,13 +24,11 @@ botaoDeAcessibilidade.addEventListener('click', function(){
     opcoesDeAcessibilidade.classList.toggle('apresenta-lista')
 })
     
-document.addEventListener('DOMContentLoaded', function () {
-    //Código fonte seguinte ocultado no slide
+document.addEventListener('DOMContentLoaded', function () { //Código fonte seguinte ocultado no slide
     const alternaContraste = document.getElementById('alterna-contraste')
     alternaContraste.addEventListener('click', function () {
         document.body.classList.toggle('alto-contraste')
-    })
-    //Código fonte seguinte ocultado no slide
+    }) //Código fonte seguinte ocultado no slide
 })
 
 })
